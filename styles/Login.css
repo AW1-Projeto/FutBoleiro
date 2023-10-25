@@ -1,0 +1,155 @@
+/*So preciso alongar, tirar bordar e o botão */
+
+main {
+    display: flex;
+    height: 88vh;
+    width: 100vw;
+}
+
+.logo {
+    height: 40px;
+    width: 80px;
+    margin-right: 30px;
+}
+
+.direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 40vw;
+    flex-direction: column;
+    background-color: #000000;
+}
+
+.esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 60vw;
+    background-color: #FFFFFF;       
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    min-height: 75%;
+    padding: 15px;
+    align-items: center;
+    width: 45%;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    overflow: auto;
+}
+
+h1 {
+    margin-top: 5%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h6 {
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+label {
+    margin-bottom: 3%;
+    margin-top: 3%;
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 0%;
+}
+
+.campo {
+    margin-top: 3%;
+}
+
+form {
+    min-height: 90%; /*Quero q ele estique, mas não fica*/
+}
+
+.btn {
+    margin: 7%;
+    font-weight: bold;
+    display: block;
+    width: 50%;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 0%;
+}
+
+
+
+@media screen and (max-width: 943px) {
+    main {
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .direita {
+        width: 100vw;
+        height: 82vh;
+    }
+
+    .esquerda {
+        width: 100vw;
+        height: 18vh;
+    }
+
+    .logo {
+        height: auto;
+        width: auto;
+    }
+
+    form {
+        margin-top: 1%;
+        width: 80%;
+        height: 60%;
+        border: 0, 4px solid black;
+    }
+
+    .card {
+        padding: 15px;
+        flex-wrap: wrap;
+        width: 70vw;
+        height: 60vh;
+        align-items: center;
+        overflow: auto;
+    }
+
+    .form-control {
+        width: 100%;
+        height: 25px;
+
+    }
+
+    h1 {
+        font-size: 30px;
+        font-family: 'Anton', sans-serif;
+        text-align: center;
+    }
+
+    button {
+        margin-top: 7%;
+    }
+
+
+}
+@media screen and (max-width: 414px) {
+    main{
+        width: 100%;
+        height: 100vh;
+    }
+}
