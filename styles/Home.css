@@ -1,26 +1,31 @@
 body {
-    margin: 0;
+ 
     font-family: 'Roboto', sans-serif;
     
 }
 
-header {
+ .primeiro{
+    flex-direction: row;
+ } 
+ 
+.login.signup{
+    background-color: rgba(161, 9, 9, 0.623);
+    color: aliceblue;
+    
+}
+  
+.header {
     background-color: #AEFF00; 
-    color: #FFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    height: 100px;
+    margin-bottom: 0;
 }
 
-.header-logo {
+.logo{
     
     height: 100px;
     margin-left: 100px;
 }
 
-.header-text > a {
+/* .header-text > a {
     text-align: center;
     text-decoration: none;
     color: #1B1B1B;
@@ -32,4 +37,4 @@ header {
 
 .perfil{
     height: 50px;
-}
+}  */
