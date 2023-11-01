@@ -1,3 +1,11 @@
+<!-- 
+    Integrantes do grupo:
+    João Guilherme Carvalho Novaes - aplicação do bootstrap no esqueleto da página
+    Matheus Augusto Preto Santana 
+    Nicoly Ferreira Da Silva
+    Pedro Henrique Barbosa Bolgheroni - modificação do boostrap para se adequar ao projeto, criação do menu lateral e ajustes de design
+ -->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -12,19 +20,20 @@
 </head>
 
 <body>
+    <!-- HEADER -->
         <header class="p-3 text-white ">
             <div class="container">
-              <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"> <!-- IMPORTAÇÃO BOOTSTRAP -->
                 <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                  <img class="logo" src="Imagens/Logo_AI._1_-removebg-preview.png" alt="">
+                  <img class="logo" src="Imagens/Logo_AI.-removebg-preview.png" alt="">
                   <img class="logo-nome" src="Imagens/nome(1).png" alt="">
                 </a>
         
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                  <li><a href="#" class="nav-link px-2 text-white">Jogos</a></li>
-                  <li><a href="#" class="nav-link px-2 text-white">Times</a></li>
-                  <li><a href="#" class="nav-link px-2 text-white">Campeonatos</a></li>
-                  <li><a href="#" class="nav-link px-2 text-white">Meu Time</a></li>
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"> <!-- MENU HEADER -->
+                  <li><a href="Jogos.html" class="nav-link px-2 text-white">Jogos</a></li>
+                  <li><a href="Times.html" class="nav-link px-2 text-white">Times</a></li>
+                  <li><a href="Campeonatos.html" class="nav-link px-2 text-white">Campeonatos</a></li>
+                  <li><a href="MeuTime.html" class="nav-link px-2 text-white">Meu Time</a></li>
                 </ul>
         
                 <div class="text-end">
@@ -37,11 +46,83 @@
 
 
     <main role="main" class="row">
-        <div class="col-2 bg-light esquerda" >
-            <h7>Última rodada do Brasileirão</h7> 
-            
+        <div class="col-2 bg-light esquerda" > <!-- MENU LATERAL -->
+            <h7>Últimos jogos do Brasileirão Série A</h7> 
+            <br><br>
+            <p class="data"><strong>Sáb 28/10</strong></p>
+            <br>
+            <img class="time-icon" src="Imagens/Palmeiras.svg" alt="" data-bs-toggle="tooltip" title="Palmeiras"> 1 X 0 <img class="time-icon" src="Imagens/bahia.svg" alt="" data-bs-toggle="tooltip" title="Bahia"> <!-- data-bs-toggle="tooltip" title=" "  PARA FAZER QUE AO POSICIONAR O MOUSE SOBRE O ESCUDO DO TIME, APAREÇA O NOME-->
+            <br><br>    
+            <img class="time-icon" src="Imagens/America-MG.svg" alt="" data-bs-toggle="tooltip" title="América-MG"> 3 X 4 <img class="time-icon" src="Imagens/gremio.svg" alt="" data-bs-toggle="tooltip" title="Grêmio">
+            <br><br>
+            <img class="time-icon" src="Imagens/atletico-mg.svg" alt="" data-bs-toggle="tooltip" title="Atlético-MG"> 2 X 0 <img class="time-icon" src="Imagens/fluminense.svg" alt="" data-bs-toggle="tooltip" title="Fluminense">
+            <br><br><br>
+            <p class="data"><strong>Dom 29/10</strong></p>
+            <br>
+            <img class="time-icon" src="Imagens/Athletico-PR.svg" alt="" data-bs-toggle="tooltip" title="Athletico-PR"> 1 X 1 <img class="time-icon" src="Imagens/sao-paulo.svg" alt="" data-bs-toggle="tooltip" title="São Paulo">
+            <br><br>
+            <img class="time-icon" src="Imagens/GOIAS.svg" alt="" data-bs-toggle="tooltip" title="Goiás"> 1 X 1 <img class="time-icon" src="Imagens/vasco.svg" alt="" data-bs-toggle="tooltip" title="Vasco">
+            <br><br>
+            <img class="time-icon" src="Imagens/internacional.svg" alt="" data-bs-toggle="tooltip" title="Internacional"> 3 X 4 <img class="time-icon" src="Imagens/coritiba.svg" alt="" data-bs-toggle="tooltip" title="Coritiba">
+            <br><br>
+            <img class="time-icon" src="Imagens/Corinthians.svg" alt="" data-bs-toggle="tooltip" title="Corinthians"> 1 X 1 <img class="time-icon" src="Imagens/santos.svg" alt="" data-bs-toggle="tooltip" title="Santos">
+            <br><br>
+            <img class="time-icon" src="Imagens/botafogo.svg" alt="" data-bs-toggle="tooltip" title="Botafogo"> 0 X 1 <img class="time-icon" src="Imagens/Cuiaba.svg" alt="" data-bs-toggle="tooltip" title="Cuiabá">
+            <br><br><br><br>
+
+            <h7>Próximos jogos do Brasileirão Série A</h7>
+            <br><br>
+            <img class="time-icon" src="Imagens/bahia.svg" alt="" data-bs-toggle="tooltip" title="Bahia"> X <img class="time-icon" src="Imagens/fluminense.svg" alt="" data-bs-toggle="tooltip" title="Fluminense"> 
+            <p class="data">31/10 19h</p>
+            <br>
+            <img class="time-icon" src="Imagens/internacional.svg" alt="" data-bs-toggle="tooltip" title="Internacional"> X <img class="time-icon" src="Imagens/America-MG.svg" alt="" data-bs-toggle="tooltip" title="América-MG"> 
+            <p class="data">01/11 19h</p>
+            <br>
+            <img class="time-icon" src="Imagens/Corinthians.svg" alt="" data-bs-toggle="tooltip" title="Corinthians"> X <img class="time-icon" src="Imagens/Athletico-PR.svg" alt="" data-bs-toggle="tooltip" title="Athletico-PR"> 
+            <p class="data">01/11 19h</p>
+            <br>
+            <img class="time-icon" src="Imagens/Flamengo.svg" alt="" data-bs-toggle="tooltip" title="Flamengo"> X <img class="time-icon" src="Imagens/santos.svg" alt="" data-bs-toggle="tooltip" title="Santos"> 
+            <p class="data">01/11 20h</p>
+            <br>
+            <img class="time-icon" src="Imagens/coritiba.svg" alt="" data-bs-toggle="tooltip" title="Coritiba"> X <img class="time-icon" src="Imagens/gremio.svg" alt="" data-bs-toggle="tooltip" title="Grêmio"> 
+            <p class="data">01/11 20h</p>
+            <br>
+            <img class="time-icon" src="Imagens/atletico-mg.svg" alt="" data-bs-toggle="tooltip" title="Atlético-MG"> X <img class="time-icon" src="Imagens/Fortaleza.svg" alt="" data-bs-toggle="tooltip" title="Fortaleza"> 
+            <p class="data">01/11 21h30</p>
+            <br>
+            <img class="time-icon" src="Imagens/botafogo.svg" alt="" data-bs-toggle="tooltip" title="Botafogo"> X <img class="time-icon" src="Imagens/Palmeiras.svg" alt="" data-bs-toggle="tooltip" title="Palmeiras"> 
+            <p class="data">01/11 21h30</p>
+            <br>
+            <img class="time-icon" src="Imagens/Cuiaba.svg" alt="" data-bs-toggle="tooltip" title="Cuiabá"> X <img class="time-icon" src="Imagens/vasco.svg" alt="" data-bs-toggle="tooltip" title="Vasco"> 
+            <p class="data">02/11 17h</p>
+            <br>
+            <img class="time-icon" src="Imagens/GOIAS.svg" alt="" data-bs-toggle="tooltip" title="Goiás"> X <img class="time-icon" src="Imagens/bragantino.svg" alt="" data-bs-toggle="tooltip" title="Bragantino"> 
+            <p class="data">02/11 18h</p>
+            <br>
+            <img class="time-icon" src="Imagens/sao-paulo.svg" alt="" data-bs-toggle="tooltip" title="São Paulo"> X <img class="time-icon" src="Imagens/cruzeiro.svg" alt="" data-bs-toggle="tooltip" title="Cruzeiro"> 
+            <p class="data">02/11 20h</p>
+            <br><br><br><br>
+
+            <h7>Artilheiros do Brasileirão Série A</h7>
+            <br><br>
+            <ul class="lista-jogador">
+                <li class="nome-jogador">Tiquinho Soares <img class="time-icon" src="Imagens/botafogo.svg" alt="" data-bs-toggle="tooltip" title="Botafogo"><br> 16 gols</li>
+                <br>
+                <li class="nome-jogador">Marcos Leonardo <img class="time-icon" src="Imagens/santos.svg" alt="" data-bs-toggle="tooltip" title="Santos"><br> 13 gols</li>
+                <br>
+                <li class="nome-jogador">Paulinho <img class="time-icon" src="Imagens/atletico-mg.svg" alt="" data-bs-toggle="tooltip" title="Atlético-MG"><br> 13 gols</li>
+                <br>
+                <li class="nome-jogador">Hulk <img class="time-icon" src="Imagens/atletico-mg.svg" alt="" data-bs-toggle="tooltip" title="Atlético-MG"> <br>11 gols</li>
+                <br>
+                <li class="nome-jogador">Vitor Roque <img class="time-icon" src="Imagens/Athletico-PR.svg" alt="" data-bs-toggle="tooltip" title="Athletico-PR"><br> 11 gols</li>
+            </ul>
+            <br>
+           <p>*Atualizado em 31/10/2023</p>
+
+
         </div>
         
+        <!-- CARDS COM NOTÍCIAS -->
         <div class="col-10 album py-5 bg-light">
             <div class="container">
                 <div class="row">
@@ -49,9 +130,9 @@
                         <div class="card mb-4 box-shadow">
                           <div class="row no-gutters">
                             <div class="col-md-12">
-                              <img class="card-img" src="Imagens/messi-bola-de-ouro.webp" alt="Card image cap">
+                              <img class="card-img principal" src="Imagens/messi-bola-de-ouro.webp" alt="Card image cap">
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-12"> <!-- 12 PARA A NOTÍCIA PRINCIPAL OCUPAR TODO O ESPAÇO -->
                               <div class="card-body">
                                 <h3 class="card-text">Lionel Messi ganha sua 8ª bola de ouro</h3>
                                 <p class="card-text">Nesta segunda-feira (30), foi anunciado de forma oficial a conquista de Lionel Messi da Bola de Ouro 2023. </p>
