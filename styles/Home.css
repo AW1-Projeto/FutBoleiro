@@ -65,8 +65,53 @@ ul{
     text-align: left;
 }
 
+.card{
+    border-color:  #585858 !important;
+    
+}
+
 .lista-jogador{
-    list-style: circle;
+    list-style/* -image */: circle/* url(Imagens/bola-de-futebol.png) */;
     padding: 0;
     margin-left: 20px;
+}
+
+.texto-footer{
+    text-align: center;
+}
+
+@media screen and (max-width: 1060px) {
+    main{
+        flex-direction: column;
+    }
+
+    .esquerda{
+        display: flex;
+        flex-direction: column;
+        border-right: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.185);
+        height: 400px;
+        overflow: auto;
+    }
+
+    .col-2 {
+        width: 100% !important; 
+        margin-right: 0; 
+    }
+
+    .col-10{
+        width: 100% !important; 
+        margin-right: 0; 
+    }
+    
+    .lista-jogador{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+   
+    
+
 }
