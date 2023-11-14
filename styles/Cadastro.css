@@ -42,11 +42,11 @@ ul{
 }
 
 .btn2 {
-    margin-bottom: 5% ;
-    margin-top: 5%;
+    margin-bottom: 8% ;
+    margin-top: 8%;
     height: 40px;
     font-weight: bold;
-    border-radius: 5%;
+    border-radius: 10%;
     color: #FFFFFF;
     background-color: #000000;
     border: none;
@@ -114,4 +114,8 @@ label {
 
 .form-control {
     border-radius: 0%;
+}
+a{
+    color: #000000;
+    
 }
